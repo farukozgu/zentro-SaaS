@@ -1,73 +1,105 @@
-# React + TypeScript + Vite
+# Zentro — Modern Task Management SaaS  
+A clean, responsive, and smooth task management web application built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.  
+Zentro helps you organize your tasks, track progress, and stay productive with beautiful design and seamless user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✔ **Create / View / Edit / Delete Tasks**
+- 🎯 **Priority Levels** (Low / Medium / High)
+- 📌 **Task Statuses** (Todo, In Progress, Done)
+- 📅 **Deadlines + Overdue Highlighting**
+- 🔍 **Global Search**
+- 🎛 **Multi-filtering** (priority + status)
+- 🗂 **List + Kanban Board Views**
+- 📊 **Analytics Dashboard**
+- 🌗 **Light / Dark Theme Toggle**
+- 💾 **LocalStorage Persistence**
+- ✨ **Framer Motion Animations**
+- 🍞 **Toast Notifications**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+|-----------|---------|
+| **React + TypeScript** | Core app architecture |
+| **React Router** | Multi-page navigation |
+| **Tailwind CSS** | Utility-first modern styling |
+| **Framer Motion** | Smooth page & UI animations |
+| **LocalStorage** | Client-side data persistence |
+| **ESLint + Prettier** | Code formatting & linting |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# 📸 Screenshots
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Below is a curated preview of Zentro in both **light** and **dark** themes.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📊 Dashboard (Light & Dark)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<div align="center">
+  <img src="/screenshots/dashboard-light.png" width="48%" />
+  <img src="/screenshots/dashboard-dark.png" width="48%" />
+</div>
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🗂 Kanban Board
+
+<div align="center">
+  <img src="/screenshots/board-dark.png" width="90%" />
+</div>
+
+---
+
+## ➕ Create New Task
+
+<div align="center">
+  <img src="/screenshots/newtask-dark.png" width="90%" />
+</div>
+
+---
+
+## 📄 Task Detail
+
+<div align="center">
+  <img src="/screenshots/taskdetail-dark.png" width="90%" />
+</div>
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/farukozgu/zentro-SaaS
+cd zentro-SaaS
+npm install
+npm run dev
+
+# Structure
+src/
+ ├─ components/        # UI components
+ ├─ pages/             # Page-level components
+ ├─ context/           # Global state (TasksContext & ToastContext)
+ ├─ hooks/             # Custom hooks
+ ├─ types/             # TypeScript type definitions
+ ├─ router/            # React Router config
+ └─ styles/            # Global styles
+
+# 🔮 Possible Future Improvements
+
+🔐 Authentication (Supabase / Firebase)
+🏷 Custom tags + sub-tasks
+🌀 Drag & Drop Kanban
+📈 Activity timeline
+☁ Cloud sync
+
+# 📜 License
+MIT License © 2025
