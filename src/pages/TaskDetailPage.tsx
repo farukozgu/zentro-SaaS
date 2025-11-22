@@ -76,6 +76,7 @@ export function TaskDetailPage() {
     }
 
     function handleStatusChange(newStatus: TaskStatus) {
+        if (!task) return;
         if (newStatus === task.status) return;
 
         dispatch({
@@ -88,6 +89,7 @@ export function TaskDetailPage() {
     }
 
     function handleDelete() {
+        if (!task) return;
         const confirmed = window.confirm(
             "Are you sure you want to delete this task? This action cannot be undone."
         );
