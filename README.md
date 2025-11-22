@@ -43,8 +43,8 @@ Below is a curated preview of Zentro in both **light** and **dark** themes.
 ## 📊 Dashboard (Light & Dark)
 
 <div align="center">
-  <img src="/screenshots/dashboard-light.png" width="48%" />
-  <img src="/screenshots/dashboard-dark.png" width="48%" />
+  <img width="48%" alt="1" src="https://github.com/user-attachments/assets/57e33aa0-e662-463f-b262-3618bc0559d3" />
+  <img width="48%" alt="2" src="https://github.com/user-attachments/assets/26cfbd79-9a8f-42af-b804-b1a35a907ab7" />
 </div>
 
 ---
@@ -52,7 +52,7 @@ Below is a curated preview of Zentro in both **light** and **dark** themes.
 ## 🗂 Kanban Board
 
 <div align="center">
-  <img src="/screenshots/board-dark.png" width="90%" />
+ <img width="2560" height="1530" alt="3" src="https://github.com/user-attachments/assets/185776b9-ad40-4f0d-9533-2050c40fe1c4" />
 </div>
 
 ---
@@ -60,7 +60,7 @@ Below is a curated preview of Zentro in both **light** and **dark** themes.
 ## ➕ Create New Task
 
 <div align="center">
-  <img src="/screenshots/newtask-dark.png" width="90%" />
+  <img width="2560" height="1271" alt="5" src="https://github.com/user-attachments/assets/94975acb-218f-4905-a02e-299b38b6e4f4" />
 </div>
 
 ---
@@ -68,7 +68,7 @@ Below is a curated preview of Zentro in both **light** and **dark** themes.
 ## 📄 Task Detail
 
 <div align="center">
-  <img src="/screenshots/taskdetail-dark.png" width="90%" />
+  <img width="2560" height="1271" alt="6" src="https://github.com/user-attachments/assets/5d197a95-8b3b-4a18-bea0-3b6a6560674a" />
 </div>
 
 ---
