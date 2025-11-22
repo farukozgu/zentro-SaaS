@@ -1,6 +1,8 @@
 # Zentro — Modern Task Management SaaS  
-A clean, responsive, and smooth task management web application built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.  
-Zentro helps you organize your tasks, track progress, and stay productive with beautiful design and seamless user experience.
+A clean, responsive, and smooth task management web application built with React, TypeScript, Tailwind CSS, and Framer Motion.  
+Zentro helps you organize your tasks, track progress, and stay productive with beautiful design and seamless user experience.  
+Built as a minimal SaaS-style project showcasing modern UI patterns, analytics, and a polished dashboard experience.
+
 
 ---
 
