@@ -1,73 +1,97 @@
-# React + TypeScript + Vite
+# Zentro — Modern Task Management SaaS  
+A clean, responsive, and smooth task management web application built with **React**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.  
+Zentro helps you organize your tasks, track progress, and stay productive with beautiful design and seamless user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✔ **Create / View / Edit / Delete Tasks**
+- 🎯 **Priority Levels** (Low / Medium / High)
+- 📌 **Task Statuses** (Todo, In Progress, Done)
+- 📅 **Deadlines + Overdue Highlighting**
+- 🔍 **Global Search**
+- 🎛 **Multi-filtering** (priority + status)
+- 🗂 **List + Kanban Board Views**
+- 📊 **Analytics Dashboard**
+- 🌗 **Light / Dark Theme Toggle**
+- 💾 **LocalStorage Persistence**
+- ✨ **Framer Motion Animations**
+- 🍞 **Toast Notifications**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+|-----------|---------|
+| **React + TypeScript** | Core app architecture |
+| **React Router** | Multi-page navigation |
+| **Tailwind CSS** | Utility-first modern styling |
+| **Framer Motion** | Smooth page & UI animations |
+| **LocalStorage** | Client-side data persistence |
+| **ESLint + Prettier** | Code formatting & linting |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# 📸 Screenshots
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Below is a curated preview of Zentro in both **light** and **dark** themes.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 📊 Dashboard (Light & Dark)
+
+<div align="center">
+  <img width="48%" alt="1" src="https://github.com/user-attachments/assets/57e33aa0-e662-463f-b262-3618bc0559d3" />
+  <img width="48%" alt="2" src="https://github.com/user-attachments/assets/26cfbd79-9a8f-42af-b804-b1a35a907ab7" />
+</div>
+
+---
+
+## 🗂 Kanban Board
+
+<div align="center">
+ <img width="2560" height="1530" alt="3" src="https://github.com/user-attachments/assets/185776b9-ad40-4f0d-9533-2050c40fe1c4" />
+</div>
+
+---
+
+## ➕ Create New Task
+
+<div align="center">
+  <img width="2560" height="1271" alt="5" src="https://github.com/user-attachments/assets/94975acb-218f-4905-a02e-299b38b6e4f4" />
+</div>
+
+---
+
+## 📄 Task Detail
+
+<div align="center">
+  <img width="2560" height="1271" alt="6" src="https://github.com/user-attachments/assets/5d197a95-8b3b-4a18-bea0-3b6a6560674a" />
+</div>
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/farukozgu/zentro-SaaS
+cd zentro-SaaS
+npm install
+npm run dev
 ```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# 🔮 Possible Future Improvements
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+🔐 Authentication (Supabase / Firebase)
+🏷 Custom tags + sub-tasks
+🌀 Drag & Drop Kanban
+📈 Activity timeline
+☁ Cloud sync
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# 📜 License
+MIT License © 2025
