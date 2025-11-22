@@ -82,8 +82,10 @@ git clone https://github.com/farukozgu/zentro-SaaS
 cd zentro-SaaS
 npm install
 npm run dev
+```
+---
 
-# Structure
+#  Structure
 src/
  ├─ components/        # UI components
  ├─ pages/             # Page-level components
