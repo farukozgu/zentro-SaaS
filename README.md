@@ -34,6 +34,11 @@ Zentro helps you organize your tasks, track progress, and stay productive with b
 
 ---
 
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Zentro%20App-4F46E5?style=for-the-badge)](https://zentro-saas.vercel.app)
+
+
 # 📸 Screenshots
 
 Below is a curated preview of Zentro in both **light** and **dark** themes.
