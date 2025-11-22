@@ -85,16 +85,6 @@ npm run dev
 ```
 ---
 
-#  Structure
-src/
- ├─ components/        # UI components
- ├─ pages/             # Page-level components
- ├─ context/           # Global state (TasksContext & ToastContext)
- ├─ hooks/             # Custom hooks
- ├─ types/             # TypeScript type definitions
- ├─ router/            # React Router config
- └─ styles/            # Global styles
-
 # 🔮 Possible Future Improvements
 
 🔐 Authentication (Supabase / Firebase)
